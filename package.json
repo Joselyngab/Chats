@@ -1,0 +1,66 @@
+{
+  "name": "nolatech-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@2fd/ant-design-icons": "^2.4.1",
+    "@casl/ability": "^5.4.3",
+    "@casl/react": "^2.3.0",
+    "@craco/craco": "^6.4.0",
+    "@fingerprintjs/fingerprintjs": "^3.3.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^0.26.0",
+    "babel-plugin-import": "^1.13.3",
+    "craco-less": "^1.20.0",
+    "customize-cra": "^1.0.0",
+    "firebase": "^9.6.7",
+    "jwt-decode": "^3.1.2",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "moment": "^2.29.4",
+    "rc-tween-one": "^3.0.6",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-number-format": "^4.8.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-verification-code-input": "^1.2.9",
+    "recharts": "^2.1.6",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.0",
+    "use-count-up": "^3.0.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
